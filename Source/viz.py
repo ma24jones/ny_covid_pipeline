@@ -1,10 +1,13 @@
 import pandas as pd
 import psycopg2
 import matplotlib.pyplot as plt
+import os
+
+user = os.environ.get("USER")
 
 # Declaring the points for first line plot
 conn = psycopg2.connect(
-    database="matthewjones", user="matthewjones", host="localhost", port="5432"
+    database="matthewjones", user=user, host="localhost", port="5432"
 )
 
 df = pd.read_sql_query(
