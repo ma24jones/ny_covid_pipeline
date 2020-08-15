@@ -23,8 +23,7 @@ df = pd.read_sql_query(
     index_col="test_date",
 )
 
-df.reset_index()
-print(df.head())
+
 # Setting the figure size
 fig = plt.figure(figsize=(10, 5))
 # plotting the first plot
