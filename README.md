@@ -1,4 +1,4 @@
-# NY COVID-19 Pipeline
+# NY State COVID-19 Pipeline
 
 A data pipeline that:
 - Connects to the [NY Statewide COVID-19 Testing](https://health.data.ny.gov/browse?tags=covid-19) API.
