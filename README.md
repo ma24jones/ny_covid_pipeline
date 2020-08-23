@@ -4,7 +4,7 @@ A data pipeline that:
 - Connects to the [NY Statewide COVID-19 Testing](https://health.data.ny.gov/browse?tags=covid-19) API.
 - Stores data in a Postgres database.
 - Produces a line chart displaying Albany County "new positive" cases over time.
-- Gives a 5 day summarized view of COVID-19 results for Albany County
+- Gives a 5 day summarized view of COVID-19 results for Albany County.
 - Sends an automated email that includes the line graph and summary exhibit.
 
 ## Technologies
